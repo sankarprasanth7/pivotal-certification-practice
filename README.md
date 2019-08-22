@@ -16,8 +16,8 @@ list of all topics
 - What is the preferred way to close an application context? Does Spring Boot do this for
 you?
 - Can you describe:
-- Dependency injection using Java configuration?
-- Dependency injection using annotations (@Autowired)?
+- Dependency injection using Java configuration?  [Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/tree/master/dependency-injection)
+- Dependency injection using annotations (@Autowired)? [Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/tree/master/dependency-injection)
 - Component scanning, Stereotypes?
 - Scopes for Spring beans? What is the default scope?
 - Are beans lazily or eagerly instantiated by default? How do you alter this behavior?
