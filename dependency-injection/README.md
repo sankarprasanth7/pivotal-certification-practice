@@ -1,13 +1,12 @@
 ## Dependency Injection
 
-Four types of Dependency Injection
+Dependency Injection with **@Autowired** annotation
 
-- Constructor based dependency injection
-- Setter based dependency injection
-- Field dependency Injection
-- Config dependency Injection
+- Constructor based dependency injection (Refer to **city.java**)
+- Setter based dependency injection (Refer to **city2.java**)
+- Field dependency Injection (Refer to **city3.java**)
 
 
-Constructor based dependency Injection explained on **city.java** under components.
-Setter based dependency Injection explained on **city2.java** under components.
-Field based dependency Injection explained on **city3.java** under components.
+Dependency injection using **Java configuration**
+
+- With Java config approach, you don’t put annotations into your business classes anymore. Instead, you write a separate Java configuration class to configure the dependency injection by instantiating the objects directly.
