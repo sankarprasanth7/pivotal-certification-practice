@@ -7,8 +7,10 @@ Here will discuss all the topics that were required for pivotal spring certifica
 list of all topics
 
 - What is dependency injection and what are the advantages ?  [Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/tree/master/dependency-injection)
-- What is an interface and what are the advantages of making use of them in Java?
-- Why are they recommended for Spring beans? 
+- What is an interface and what are the advantages of making use of them in Java?. Why are they recommended for Spring beans?
+
+  A particular advantage of using interface in Java is that it allows multiple inheritance. The full power of Interface is     utilized when dependency injection techniques is used to inject required implementation on run time.
+  
 - What is meant by “application-context?
 - How are you going to create a new instance of an ApplicationContext?
 - Can you describe the lifecycle of a Spring Bean in an ApplicationContext?
