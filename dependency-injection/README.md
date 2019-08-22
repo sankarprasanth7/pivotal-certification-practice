@@ -1,4 +1,6 @@
-## Dependency Injection
+## Dependency Injection(DI)
+
+Dependency Injection is the process of providing dependencies to other object.By DI, the responsibility of creating objects is shifted from our application code to the Spring container; this phenomenon is called IOC.
 
 Dependency Injection with **@Autowired** annotation
 
@@ -9,4 +11,7 @@ Dependency Injection with **@Autowired** annotation
 
 Dependency injection using **Java configuration**
 
-- With Java config approach, you don’t put annotations into your business classes anymore. Instead, you write a separate Java configuration class to configure the dependency injection by instantiating the objects directly.
+- With Java config approach, you don’t put annotations into your business classes anymore. Instead, you write a separate Java configuration class to configure the dependency injection by instantiating the objects directly.(Refer to **AppConfig**)
+
+
+
