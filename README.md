@@ -6,7 +6,7 @@ Here will discuss all the topics that were required for pivotal spring certifica
 
 list of all topics
 
-- What is dependency injection and what are the advantages ?  [Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/master/dependency-injection/README.md)
+- What is dependency injection and what are the advantages ?  [Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/tree/master/dependency-injection)
 - What is an interface and what are the advantages of making use of them in Java?
 - Why are they recommended for Spring beans? 
 - What is meant by “application-context?
