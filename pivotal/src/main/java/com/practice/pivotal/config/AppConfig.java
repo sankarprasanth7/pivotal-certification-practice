@@ -4,6 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
+import org.springframework.core.io.ClassPathResource;
 
 import com.practice.pivotal.service.Person;
 import com.practice.pivotal.service.PersonImp;
@@ -30,5 +32,18 @@ public class AppConfig {
 	@Bean("personBean")
 	public Person getPerson(Person person) {
 		return new PersonImp();
+	}
+
+	/**
+	 * Suppose we have externalized properties to some other file and we want get
+	 * all those properties then we can use **PropertyPlaceHolderConfigurer**
+	 */
+	@Bean
+	public PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer() {
+		PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer = new PropertySourcesPlaceholderConfigurer();
+		propertySourcesPlaceholderConfigurer.setLocations(new ClassPathResource("config.properties"));
+		// propertySourcesPlaceholderConfigurer.setIgnoreUnresolvablePlaceholders(true);
+		// propertySourcesPlaceholderConfigurer.setIgnoreResourceNotFound(true);
+		return propertySourcesPlaceholderConfigurer;
 	}
 }

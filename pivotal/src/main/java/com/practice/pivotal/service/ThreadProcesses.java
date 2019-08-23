@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
  * Spring Bean has multiple scopes(SSRPG)
  * 
  * singleton(default): single bean definition to a single object instance'
- * prototype: single bean definition to any number of object instances. request:
- * Scopes a single bean definition to the lifecycle of a single HTTP request
+ * prototype: single bean definition to any number of object instances. 
+ * request:Scopes a single bean definition to the lifecycle of a single HTTP request
  * session: Scopes a single bean definition to the lifecycle of a HTTP Session.
  * global session: Scopes a single bean definition to the lifecycle of a global
  * HTTP Session.
