@@ -26,7 +26,7 @@ you?[Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practi
 - What is a BeanFactoryPostProcessor and what is it used for? When is it invoked? [Refer Here](https://i.stack.imgur.com/jg555.png)
 - Why would you define a static @Bean method?
 - What is a ProperySourcesPlaceholderConfigurer used for? [Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/7f059f936a49029c9bad81f16fbcffadd86def17/pivotal/src/main/java/com/practice/pivotal/config/AppConfig.java#L37)
-- What is a BeanPostProcessor and how is it different to a BeanFactoryPostProcessor? [Refer Here] (https://stackoverflow.com/questions/30455536/beanfactorypostprocessor-and-beanpostprocessor-in-lifecycle-events)
+- What is a BeanPostProcessor and how is it different to a BeanFactoryPostProcessor? [Refer Here](https://stackoverflow.com/questions/30455536/beanfactorypostprocessor-and-beanpostprocessor-in-lifecycle-events)
 - What is an initialization method and how is it declared on a Spring bean?
 - What is a destroy method, how is it declared and when is it called?
 - Consider how you enable JSR-250 annotations like @PostConstruct and
