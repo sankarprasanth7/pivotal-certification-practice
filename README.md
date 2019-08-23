@@ -9,22 +9,22 @@ list of all topics
 - What is dependency injection and what are the advantages ?  [Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/tree/master/dependency-injection)
 - What is an interface and what are the advantages of making use of them in Java?. Why are they recommended for Spring beans?
 
-  A particular advantage of using interface in Java is that it allows multiple inheritance. The full power of Interface is     utilized when dependency injection techniques is used to inject required implementation on run time.
+  `A particular advantage of using interface in Java is that it allows multiple inheritance. The full power of Interface is     utilized when dependency injection techniques is used to inject required implementation on run time.`
   
-- What is meant by “application-context?
-- How are you going to create a new instance of an ApplicationContext?
-- Can you describe the lifecycle of a Spring Bean in an ApplicationContext?
-- How are you going to create an ApplicationContext in an integration test?
+- What is meant by “application-context? [Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/9b31d85f4a0cf587b56b6f7816b9268ea1541d5a/pivotal/src/main/java/com/practice/pivotal/utils/ApplicationContextExample.java#L14)
+- How are you going to create a new instance of an ApplicationContext? [Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/9b31d85f4a0cf587b56b6f7816b9268ea1541d5a/pivotal/src/main/java/com/practice/pivotal/utils/ApplicationContextExample.java#L33)
+- Can you describe the lifecycle of a Spring Bean in an ApplicationContext?[Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/9b31d85f4a0cf587b56b6f7816b9268ea1541d5a/pivotal/src/main/java/com/practice/pivotal/config/AppConfig.java#L20)
+- How are you going to create an ApplicationContext in an integration test?[Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/9b31d85f4a0cf587b56b6f7816b9268ea1541d5a/pivotal/src/test/java/com/practice/pivotal/ApplicationContextTests.java#L7)
 - What is the preferred way to close an application context? Does Spring Boot do this for
-you?
+you?[Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/9b31d85f4a0cf587b56b6f7816b9268ea1541d5a/pivotal/src/main/java/com/practice/pivotal/utils/ApplicationContextExample.java#L43)
 - Can you describe:
 - Dependency injection using Java configuration?  [Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/tree/master/dependency-injection)
 - Dependency injection using annotations (@Autowired)? [Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/tree/master/dependency-injection)
 - Component scanning, Stereotypes?
-- Scopes for Spring beans? What is the default scope?
-- Are beans lazily or eagerly instantiated by default? How do you alter this behavior?
-- What is a property source? How would you use @PropertySource?
-What is a BeanFactoryPostProcessor and what is it used for? When is it invoked?
+- Scopes for Spring beans? What is the default scope?[Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/9b31d85f4a0cf587b56b6f7816b9268ea1541d5a/pivotal/src/main/java/com/practice/pivotal/service/ThreadProcesses.java#L8)
+- Are beans lazily or eagerly instantiated by default? How do you alter this behavior?[Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/9b31d85f4a0cf587b56b6f7816b9268ea1541d5a/pivotal/src/main/java/com/practice/pivotal/service/ThreadProcesses.java#L26)
+- What is a property source? How would you use @PropertySource?[Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/9b31d85f4a0cf587b56b6f7816b9268ea1541d5a/pivotal/src/main/java/com/practice/pivotal/service/ThreadProcesses.java#L31)
+- What is a BeanFactoryPostProcessor and what is it used for? When is it invoked?
 - Why would you define a static @Bean method?
 - What is a ProperySourcesPlaceholderConfigurer used for?
 - What is a BeanPostProcessor and how is it different to a BeanFactoryPostProcessor?
