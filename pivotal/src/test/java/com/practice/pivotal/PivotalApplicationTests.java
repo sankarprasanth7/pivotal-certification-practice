@@ -1,5 +1,7 @@
 package com.practice.pivotal;
 
+import java.util.Map;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Value;
@@ -15,6 +17,7 @@ public class PivotalApplicationTests {
 	 * supports querying and manipulating an object graph at runtime. It can be used
 	 * with XML or annotation-based Spring configurations.
 	 * 
+	 * @see <a href="https://www.baeldung.com/spring-expression-language">SpEL<a>
 	 */
 	/**
 	 * @value is used to assign value to a variable taken from other source
@@ -35,6 +38,23 @@ public class PivotalApplicationTests {
 	 */
 	@Value("#{personBean.age}")
 	private int age;
+	
+
+	/**
+	 * Inject Maps and arrays With Spring’s @Value
+	 * 
+	 * app.collection.strings.property=one, two, three
+	 * app.collection.map.string.to.integer={one:"1", two:"2", three:"3"}
+	 * 
+	 * @see <a href="https://relentlesscoding.com/2018/09/09/spring-basics-dynamically-inject-values-with-springs-value/"> @Value <a>
+	 * 
+	 */
+
+	@Value("${app.collection.strings.property}")
+	private String[] stringArrayProperty;
+
+	@Value("#{${app.collection.map.string.to.integer}}")
+	private Map<String, Integer> mapStringToInteger;
 
 	@Test
 	public void contextLoads() {
