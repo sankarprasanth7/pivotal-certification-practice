@@ -50,11 +50,11 @@ this impact testing?
 - Can you use @Bean together with @Profile?
 - Can you use @Component together with @Profile?
 - How many profiles can you have?
-- How do you inject scalar/literal values into Spring beans?
-- What is @Value used for?[Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/master/pivotal/src/test/java/com/practice/pivotal/PivotalApplicationTests.java#L19)
-- What is Spring Expression Language (SpEL for short)?[Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/master/pivotal/src/test/java/com/practice/pivotal/PivotalApplicationTests.java#L14)
+- How do you inject scalar/literal values into Spring beans? [Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/c4e82fbb30401779715abcc51feaae4c99706a8e/pivotal/src/test/java/com/practice/pivotal/PivotalApplicationTests.java#L43)
+- What is @Value used for? [Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/master/pivotal/src/test/java/com/practice/pivotal/PivotalApplicationTests.java#L19)
+- What is Spring Expression Language (SpEL for short)? [Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/master/pivotal/src/test/java/com/practice/pivotal/PivotalApplicationTests.java#L14)
 - What is the Environment abstraction in Spring?
 - Where can properties in the environment come from – there are many sources for
 properties – check the documentation if not sure. Spring Boot adds even more.
 - What can you reference using SpEL?
-- What is the difference between $ and # in @Value expressions?[Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/master/pivotal/src/test/java/com/practice/pivotal/PivotalApplicationTests.java#L22)
+- What is the difference between $ and # in @Value expressions? [Refer Here](https://github.com/sankarprasanth7/pivotal-certification-practice/blob/master/pivotal/src/test/java/com/practice/pivotal/PivotalApplicationTests.java#L22)
